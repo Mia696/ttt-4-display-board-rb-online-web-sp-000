@@ -14,14 +14,14 @@ If we called `display_board` and passed in that `board` as an argument, we'd exp
 
 ```ruby
 board = [" "," "," "," "," "," "," "," "," "]
-d   |   |   
+display_board(board)
+
+# Would Print:
+#    |   |   
 # -----------
 #    |   |   
 # -----------
-#    |   |   isplay_board(board)
-
-# Would Print:
-# 
+#    |   |   
 ```
 
 A board with an "X" in the middle:
